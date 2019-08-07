@@ -1,0 +1,6 @@
+#COMPONENT_PROPERTIES  ; comp0
+ $NAME
+  TRACER
+ $MOBIL
+  1; MOBIL-Flag: 0=immobile, 1=mobile/transported
+#STOP

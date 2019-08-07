@@ -1,0 +1,18 @@
+#POINTS
+0 200 0 0
+1 200 200 0
+2 0 0 0
+3 0 200 0
+#POLYLINE
+ $NAME
+  r_bc
+ $POINTS
+  0
+  1
+#POLYLINE
+ $NAME
+  l_bc
+ $POINTS
+  2
+  3
+#STOP

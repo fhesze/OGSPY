@@ -1,0 +1,9 @@
+#NUMERICS
+ $PCS_TYPE
+  GROUNDWATER_FLOW
+ $LINEAR_SOLVER 
+  ; method error_tolerance max_iterations theta precond storage
+    2      5 1.0e-06       1000           1.0   1       4
+ $ELE_GAUSS_POINTS
+  3
+#STOP

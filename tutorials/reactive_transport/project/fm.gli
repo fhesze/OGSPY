@@ -1,0 +1,47 @@
+#POINTS
+0 10 25 0 $NAME WELL
+1 0.0 0.0 0.0
+2 0.0 5.0 0.0
+3 40.0 5.0 0.0
+4 40.0 0.0 0.0
+5 20 25 0 $NAME point1
+6 60 25 0 $NAME point2
+7 65 25 0 $NAME point3
+8 100 0 0
+9 100 50 0
+10 70.0 24.0 0.0
+11 70.5 24.0 0.0
+12 70.5 26.0 0.0
+13 70.0 26.0 0.0
+#POLYLINE
+ $NAME
+  AROUND
+ $POINTS
+  1
+  2
+  3
+  4
+  1
+#POLYLINE
+ $NAME
+  r_bc
+ $POINTS
+  8
+  9
+#POLYLINE
+ $NAME
+  CS
+ $POINTS
+  10
+  11
+  12
+  13
+  10
+#SURFACE
+ $NAME
+  CSS
+ $POLYLINES
+  CS
+ $TYPE
+  0
+#STOP
